@@ -1,3 +1,7 @@
+// create a function where you can call it by writig the code fibonacciGenerator(n)
+// where n is the number of items in the sequence
+// so it should be able to call fibonacciGenerator(3) and get [0, 1, 1] as the out put 
+
 function fibonacciGenerator(n) {
   let number = [];
   for (let i = 0; i < n; i++) {
