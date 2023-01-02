@@ -1,3 +1,6 @@
+// write a function called vowelExtractor(), that takes a string of any length,
+//  and returns only the vowels in the string
+
 function vowelExtractor(word) {
   const vowelInWord = [];
   const vowels = ["a", "e", "i", "o", "u"];
