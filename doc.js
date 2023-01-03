@@ -3,18 +3,10 @@
 // so it should be able to call fibonacciGenerator(3) and get [0, 1, 1] as the out put 
 
 function fibonacciGenerator(n) {
-  let number = [];
-  for (let i = 0; i < n; i++) {
-    if (number.length >= 2) {
-      number.push(number[number.length - 1] + number[number.length - 2]);
-    }
-    if (number.length === 1) {
-      number.push(1)
-    }
-    if (number.length < 1) {
-      number.push(0);
-    }
+  let sequence = [0, 1];
+  for (let i = 2; i < n; i++) {
+    sequence[i] = sequence[i - 1] + sequence[i - 2];
   }
-  console.log(number);
+  console.log(sequence);
 }
 fibonacciGenerator(7);
