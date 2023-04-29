@@ -9,4 +9,4 @@ function fibonacciGenerator(n) {
   }
   console.log(sequence);
 }
-fibonacciGenerator(7);
+fibonacciGenerator(73);
